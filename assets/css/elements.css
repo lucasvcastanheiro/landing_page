@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  min-width: 32rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 5rem;
+}
+
+h4 {
+  font-size: 4.5rem;
+}
+
+h5 {
+  font-size: 4rem;
+}
+
+h6 {
+  font-size: 3.5rem;
+}
+
+a {
+  text-decoration: none;
+  text-decoration: none;  
+  color: var(--primary-color);
+  display: block;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  position: relative;
+}
+
+p {
+  margin-bottom: 3rem;
+}
+
+.responsive-table {
+  overflow-x: auto;
+  width: 100%;
+  min-width: 24.5;
+}
+
+table {
+  min-width: 60rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, td {
+  white-space: wrap;
+  padding: 0.5rem 1rem;
+  text-align: left;
+}
+
+table caption{
+  caption-side: top;
+  text-align: left;
+  font-size: 1.8rem;
+  font-style: italic;
+}
+
+label {
+  display: block;
+}
